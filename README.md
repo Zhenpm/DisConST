@@ -1,6 +1,6 @@
 # DisConST
 spatial domain identification
-
+![image](https://github.com/Zhenpm/DisConST/blob/main/DisConST-01.png)
 
 ## Overview
 
@@ -8,3 +8,8 @@ Spatial transcriptomics (ST) is a cutting-edge technology that comprehensively c
 
 ## Software dependencies
 
+scanpy==1.9.6
+pytorch==1.12.0+cu11.3
+pytorch_geometric==2.4.0
+R==4.2.3
+mclust==5.4.10
