@@ -1,6 +1,6 @@
 # DisConST
 spatial domain identification
-![image](https://github.com/Zhenpm/DisConST/blob/main/DisConST-01.png)
+![image](https://github.com/Zhenpm/DisConST/blob/main/DisConST.png)
 
 ## Overview
 
