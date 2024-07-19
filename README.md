@@ -1,5 +1,5 @@
 # DisConST
-spatial domain identification
+spatial domain identification with DisConST
 ![image](https://github.com/Zhenpm/DisConST/blob/main/DisConST.png)
 
 ## Overview
@@ -8,16 +8,16 @@ Spatial transcriptomics (ST) is a cutting-edge technology that comprehensively c
 
 ## Software dependencies
 
-scanpy==1.9.6 
-pytorch==1.12.0+cu11.3 
-pytorch_geometric==2.4.0 
-R==4.2.3 
-mclust==5.4.10 
+scanpy==1.9.6 <br />
+pytorch==1.12.0+cu11.3 <br />
+pytorch_geometric==2.4.0 <br />
+R==4.2.3 <br />
+mclust==5.4.10 <br />
 
 ## set up
 
 ## Datasets
-In this work, we employed five ST datasets to DisConST, including 12 slices of Human Dorsolateral Prefrontal Cortex (DLPFC), 2 slices of mouse olfactory bul tissue from Stereo-seq and ST sequencing technology, 2 sections of mouse brain sagittal slices, a human breast cancer slice and  9 slices of Mouse Organogenesis Spatiotemporal Transcriptomic Atlas (MOSTA) from Streo-seq and seqFiSH sequencing technology.
+In this work, we employed five ST datasets to DisConST, including 12 slices of Human Dorsolateral Prefrontal Cortex (DLPFC), 2 slices of mouse olfactory bul tissue from Stereo-seq and ST sequencing technology, 2 sections of mouse brain sagittal slices, a human breast cancer slice and  9 slices of Mouse Organogenesis Spatiotemporal Transcriptomic Atlas (MOSTA) from Streo-seq and seqFiSH sequencing technology. <br />
 Five datasets can be downloaded from https://github.com/hannshu/st_datasets or https://pan.baidu.com/s/1mmMWKz-GaHqvjTQ-fZ1IZA?pwd=1234
 
 ## Tutorial
