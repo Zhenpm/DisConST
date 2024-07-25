@@ -17,13 +17,13 @@ mclust==5.4.10 <br />
 ## set up
 
 First clone the repository.
-'git clone https://github.com/Zhenpm/DisConST.git
-cd DisConST-main'
+`git clone https://github.com/Zhenpm/DisConST.git
+cd DisConST-main`
 Then, we suggest creating a new environment：
-‘conda create -n disconst python=3.10
-conda activate disconst’
+`conda create -n disconst python=3.10
+conda activate disconst`
 Additionally, install the packages required:
-'pip install -r requiement.txt'
+`pip install -r requiements.txt`
 
 ## Datasets
 In this work, we employed five ST datasets to DisConST, including 12 slices of Human Dorsolateral Prefrontal Cortex (DLPFC), 2 slices of mouse olfactory bul tissue from Stereo-seq and ST sequencing technology, 2 sections of mouse brain sagittal slices, a human breast cancer slice and  9 slices of Mouse Organogenesis Spatiotemporal Transcriptomic Atlas (MOSTA) from Streo-seq and seqFiSH sequencing technology. <br />
