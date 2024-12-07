@@ -43,6 +43,8 @@ class DisConST(torch.nn.Module):
             self.conv2.lin_dst.data = self.conv1.lin_dst.transpose(0, 1)
             h4 = F.elu(self.conv2(h2, edge_index, attention=True,
                             tied_attention=self.conv1.attentions))
+            h4_p=h4
+            h4_d=h4
         else:                   
             h1 = F.elu(self.conv1(features, edge_index))
             h2 = self.conv2(h1, edge_index, attention=False)
@@ -53,10 +55,12 @@ class DisConST(torch.nn.Module):
             h3 = F.elu(self.conv3(h2, edge_index, attention=True,
                                 tied_attention=self.conv1.attentions))
             h4 = self.conv4(h3, edge_index, attention=False)
+            h4_p = self.conv4(h3, edge_index, attention=False)
+            h4_d = self.conv4(h3, edge_index, attention=False)
         #h_4 = self.linear(h3) 
         sigmoid = nn.Sigmoid()   
-        pi = sigmoid(h4)
-        disp = disp_act(h4)
+        pi = sigmoid(h4_p)
+        disp = disp_act(h4_d)
         mean = mean_act(h4)
 
         output = [mean, disp, pi]  # assuming output, disp, and pi are tensors
